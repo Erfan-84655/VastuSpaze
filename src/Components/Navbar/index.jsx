@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import logo from "../../assets/logo.webp";
 
 export default function Navbar() {
   const Navbar = () => {
-    const [isopen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => {
-      setIsOpen(!isopen);
+      setIsOpen(!isOpen);
     };
   };
   return (
@@ -12,11 +13,18 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
         <div className="pl-2">
           <a href="#">
-          {/* compilite */}
+            <img src={logo} width={150} height={15} alt="vastuSpaze" />
           </a>
-
         </div>
-
+        <div className="md:hidden">
+          <button
+            onClick={toggleMenu}
+            className="text-2xl pr-2 focus:outline-none"
+            aria-label={isopen ? "Close menu" : "open menu"}
+          >
+            {isOpen ? <RiCloseLine/> : <RiMenu3Line/>}
+          </button>
+        </div>
       </div>
     </nav>
   );
