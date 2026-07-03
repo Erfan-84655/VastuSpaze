@@ -1,5 +1,5 @@
 import React from 'react'
-import {Hero, Navbar,Portfolio,Services} from '../src/Components/index'
+import {About, Hero, Navbar,Portfolio,Services} from '../src/Components/index'
 export default function App() {
   return (
   <main className='overflow-x-hidden antialiased text-neutral-800'>
@@ -7,6 +7,7 @@ export default function App() {
     <Hero/>
     <Services/>
     <Portfolio/>
+    <About/>
   </main>
   )
 }
