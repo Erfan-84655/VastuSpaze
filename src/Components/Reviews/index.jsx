@@ -16,13 +16,14 @@ export default function Reviews() {
               key={index}
               className="mt-10 flex flex-col items-center justify-center rounded-2xl border border-neutral-300 p-10 mx-2 max-w-xs"
             >
-              <p className="mb-4">{review.reviews}</p>
+              <p className="mb-4">{review.review}</p>
               <div className="flex items-center mt-4"> 
                 <img src={review.image} alt={review.name} className="w-12 h-12 rounded-full mr-4"/>
                 <div>
-                    <p className="text-sm text-neutral-500">
-                    {review.title}
+                    <p className="text-sm font-black">
+                    {review.name}
                     </p>
+                    <p className="text-sm text-neutral-500"> {review.title}</p>
                 </div>
               </div>
             </div>
