@@ -1,9 +1,9 @@
 import React from 'react'
-
+import {Navbar} from '../src/Components/index'
 export default function App() {
   return (
-    <div>
-      hello world
-    </div>
+  <main className='overflow-x-hidden antialiased text-neutral-800'>
+    <Navbar/>
+  </main>
   )
 }

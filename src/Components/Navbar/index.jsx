@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo.webp";
-
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import {LINKS} from '../../constants/index.js'
 export default function Navbar() {
-  const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const toggleMenu = () => {
-      setIsOpen(!isOpen);
-    };
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
+
   return (
     <nav className="border-b-2">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
@@ -20,10 +21,18 @@ export default function Navbar() {
           <button
             onClick={toggleMenu}
             className="text-2xl pr-2 focus:outline-none"
-            aria-label={isopen ? "Close menu" : "open menu"}
+            aria-label={isOpen ? "Close menu" : "open menu"}
           >
-            {isOpen ? <RiCloseLine/> : <RiMenu3Line/>}
+            {isOpen ? <RiCloseLine /> : <RiMenu3Line />}
           </button>
+        </div>
+        <div className="hidden md:flex space-x-8 md:space-x-4 pr-2">
+          {LINKS.map((link,index)=>(
+            <a key={index} href={link.link} className="uppercase text-sm font-medium">
+              {link.name}
+            </a>
+          ))}
+
         </div>
       </div>
     </nav>
