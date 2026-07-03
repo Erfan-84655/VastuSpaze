@@ -4,4 +4,5 @@ import Hero from "./Hero";
 import Services from "./Services";
 import Portfolio from './Portfolio'
 import About from "./About";
-export {Navbar,Footer,Hero,Services,Portfolio,About}
+import Reviews from './Reviews'
+export {Navbar,Footer,Hero,Services,Portfolio,About,Reviews}
