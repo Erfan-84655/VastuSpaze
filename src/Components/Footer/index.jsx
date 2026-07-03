@@ -1,4 +1,3 @@
-import React from "react";
 import { RiFacebookFill, RiInstagramFill, RiTwitterFill } from "react-icons/ri";
 
 export default function Footer() {

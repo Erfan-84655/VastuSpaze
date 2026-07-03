@@ -1,4 +1,3 @@
-import React from 'react'
 import {About, ContactUs, Footer, Hero, Navbar,Portfolio,Reviews,Services} from '../src/Components/index'
 export default function App() {
   return (

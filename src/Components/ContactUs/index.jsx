@@ -1,4 +1,3 @@
-import React from "react";
 import { CONTACT_INFO } from "../../constants";
 import { RiMailLine, RiMapPinLine, RiPhoneLine } from "react-icons/ri";
 export default function ContactUs() {
@@ -39,7 +38,6 @@ export default function ContactUs() {
               <p className="text-neutral-600">{CONTACT_INFO.address.value}</p>
             </div>
           </div>
-          
         </div>
       </div>
     </section>

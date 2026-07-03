@@ -1,4 +1,3 @@
-import React from "react";
 import aboutImage from "../../assets/about.webp";
 export default function About() {
   return (

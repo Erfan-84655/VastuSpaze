@@ -1,4 +1,3 @@
-import React from "react";
 import { SERVICES_CONTENT } from "../../constants";
 
 export default function Services() {

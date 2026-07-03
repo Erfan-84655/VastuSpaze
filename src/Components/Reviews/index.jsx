@@ -1,4 +1,3 @@
-import React from "react";
 import { REVIEWS } from "../../constants";
 export default function Reviews() {
   return (
