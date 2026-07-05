@@ -1,16 +1,59 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🏛️ VastuSpaze
+### Transforming Houses into Dream Homes
 
-Currently, two official plugins are available:
+**Modern Architecture & Interior Renovation Platform**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 درباره ما (About Us)
+در **VastuSpaze**، ما باور داریم که خانه‌ها می‌توانند به فضاهای رویایی تبدیل شوند. با اشتیاق فراوان به طراحی و تعهدی بی‌وقفه به کیفیت، تیم متخصص و ماهر ما بیش از یک دهه است که به ارائه خدمات بازسازی استثنایی مشغول است.
 
-## Expanding the ESLint configuration
+ما در ایجاد فضاهای زیبا، لوکس و کاربردی که بازتاب‌دهنده سلیقه و سبک زندگی منحصر‌به‌فرد مشتریانمان است، تخصص داریم. از آشپزخانه‌های مدرن و حمام‌های مجلل گرفته تا فضاهای نشیمن بیرونی آرامش‌بخش و دفاتر کار خانگی دنج، ما تخصص خود را به تک‌تک پروژه‌ها می‌آوریم تا اطمینان حاصل کنیم که هر بازسازی دقیقاً متناسب با نیازها و خواسته‌های خاص شما طراحی شده است. ماموریت ما ارتقای زیبایی و کارایی خانه شماست؛ جایی که بتوانید در آن به معنای واقعی کلمه شکوفا شوید.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 گالری تصاویر پروژه (Gallery)
+نمونه‌هایی از طراحی‌های لوکس و رابط کاربری وب‌سایت:
+
+<div align="center">
+
+| نمای کلی صفحه اصلی | بخش خدمات و ویژگی‌ها |
+| :---: | :---: |
+| <img src="./src/assets/ScreenShot/Screenshot%20(1).png" width="380px" /> | <img src="./src/assets/ScreenShot/Screenshot%20(2).png" width="380px" /> |
+| <img src="./src/assets/ScreenShot/Screenshot%20(3).png" width="380px" /> | <img src="./src/assets/ScreenShot/Screenshot%20(4).png" width="380px" /> |
+| <img src="./src/assets/ScreenShot/Screenshot%20(5).png" width="380px" /> | |
+
+</div>
+
+---
+
+## ✨ ویژگی‌های کلیدی (Key Features)
+* **طراحی مدرن و مینیمال:** رابط کاربری لوکس متناسب با پروژه‌های معماری و بازسازی.
+* **کاملاً واکنش‌گرا (Responsive):** پیاده‌سازی شده با Tailwind CSS برای نمایش بی‌نقص در تمامی دستگاه‌ها.
+* **المنت‌های بصری جذاب:** استفاده از آیکون‌های مدرن و هماهنگ.
+* **توسعه سریع:** بهره‌گیری از معماری کامپوننت‌محور React.
+
+---
+
+## 🛠 تکنولوژی‌های استفاده شده (Tech Stack)
+این پروژه با استفاده از جدیدترین و قدرتمندترین ابزارهای وب توسعه یافته است:
+
+* **React 19.2** - کتابخانه محبوب و مدرن برای ساخت رابط کاربری
+* **Vite 8.1** - ابزار فوق‌سریع برای کامپایل و توسعه پروژه
+* **Tailwind CSS 4.3** - فریم‌ورک استایل‌دهی مدرن و بسیار بهینه
+* **React Icons & Remixicon** - پکیج آیکون‌های وکتور و شیک
+
+---
+
+## 🚀 راهنمای راه‌اندازی و اجرا (Installation)
+
+برای اجرای این پروژه در سیستم محلی خود، مراحل ساده زیر را دنبال کنید:
+
+1. **کلون کردن مخزن پروژه:**
+   ```bash
+   git clone https://github.com/Erfan-84655/VastuSpaze.git
+   cd VastuSpaze
