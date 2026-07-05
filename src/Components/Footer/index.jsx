@@ -31,7 +31,9 @@ export default function Footer() {
           </a>
         </div>
         <p className="text-sm ">&copy; 2026 VastuSpaze. All rights reserved.</p>
-        <p className="text-sm ">Created by Erfan Fallah</p>
+        <a href="https://github.com/Erfan-84655" target="_blank">
+          <p className="text-sm ">Created by Erfan Fallah</p>
+        </a>
       </div>
     </footer>
   );
